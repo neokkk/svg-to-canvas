@@ -1,6 +1,6 @@
 import fs from 'fs/promises';
-import parse from './parse';
-import { groupfy, drawPath } from './utils';
+import parse from './src/parse';
+import { groupfy, drawPath } from './src/utils';
 
 const main = async () => {
   const filePaths = process.argv.slice(2);
