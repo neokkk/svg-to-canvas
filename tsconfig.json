@@ -2,14 +2,18 @@
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "lib": ["DOM", "ESNext"],
+    "lib": ["DOM", "ES2021.String"],
     "module": "ESNext",
     "moduleResolution": "Node",
     "noImplicitAny": true,
+    "outDir": "dist",
     "resolveJsonModule": true,
     "strict": true,
     "target": "ESNext",
   },
+  "include": [
+    "**/*.ts"
+  ],
   "ts-node": {
     "compilerOptions": {
       "module": "CommonJS"
